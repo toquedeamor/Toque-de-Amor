@@ -1,0 +1,178 @@
+/* Estilo geral */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff8dc;
+    color: #444;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    position: relative;
+    background: linear-gradient(135deg, #f9eecb 0%, #fff8dc 100%);
+    text-align: center;
+}
+
+/* Título Principal */
+.main-title {
+    font-size: 3.5em;
+    color: #b8860b;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* Seção de Títulos */
+.section-title {
+    font-size: 2.5em;
+    color: #b8860b;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    letter-spacing: 1px;
+}
+
+/* Estilo da imagem no topo */
+.full-width-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+    filter: brightness(0.95);
+}
+
+/* Estilo das imagens lado a lado */
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.side-image.large-image {
+    width: 45%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo da logo */
+.logo-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.logo-image {
+    width: 220px;
+    filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.15));
+}
+
+/* Descrição e conteúdo do projeto */
+.project-description, .project-content {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    background-color: rgba(255, 248, 220, 0.85);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 1.7;
+}
+
+/* Listas de Objetivos */
+.objective-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.objective-list li {
+    margin-bottom: 12px;
+    font-size: 1.2em;
+    color: #555;
+    position: relative;
+    padding-left: 35px;
+}
+
+.objective-list li:before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #b8860b;
+    font-size: 1.5em;
+}
+
+/* Estilo dos vídeos */
+.video-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: #fffaf0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video h3 {
+    margin-bottom: 10px;
+    color: #b8860b;
+    font-size: 1.5em;
+}
+
+/* Galeria de Fotos */
+.gallery-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 20px 0;
+    background-color: #fffaf0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Centralização dos contatos */
+.contact-info {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+    background-color: rgba(255, 248, 220, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #b8860b;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.2em;
+}
+
+.footer-image {
+    width: 100px;
+    margin-top: 10px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+/* Estilo dos corações */
+.heart {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    opacity: 0.15;
+    z-index: -1;
+}
